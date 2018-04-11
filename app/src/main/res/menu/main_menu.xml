@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_login"
+        android:title="Login"
+        />
+    <item
+        android:id="@+id/item_logout"
+        android:title="Logout"
+        />
+    <item
+        android:title="Background">
+            <menu>
+                <group android:id="@+id/group_color">
+                    <item
+                        android:id="@+id/item_default"
+                        android:title="Default"/>
+                    <item
+                        android:id="@+id/item_red"
+                        android:title="Red"/>
+                    <item
+                        android:id="@+id/item_green"
+                        android:title="Green"/>
+                    <item
+                        android:id="@+id/item_blue"
+                        android:title="Blue"/>
+                </group>
+            </menu>
+    </item>
+
+</menu>
